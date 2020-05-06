@@ -1,0 +1,41 @@
+body {
+  padding-top: 70px;
+}
+ /* COMPONENTS */
+ .ms_button{
+  padding: 10px 8px;
+ }
+ /* navbar*/
+ .ms_logo img{
+  width: 150px;
+  height: auto;
+  display: block;
+  padding: 10px 0;
+ }
+
+.ms_nav a{
+  color: black;
+  text-decoration: none;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.nav>li>a{
+  padding: 15px 8px;
+}
+#ms_signup_nav{
+  color: #2c84ff;
+  border: 1px solid #2c84ff;
+  border-radius: 5px;
+  padding: 10px 5px;
+  display: inline;
+  line-height: 53px;
+}
+#ms_signup_nav:hover{
+  color: white;
+  background-color: #2c84ff;
+}
+.ms_burger_menu i{
+  line-height: 57px;
+  color: #2c84ff;
+}
