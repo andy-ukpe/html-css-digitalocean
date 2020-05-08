@@ -28,19 +28,28 @@ h3 {
   padding: 9px 8px;
  }
  .ms_intro{
-   text-align: center;
-   padding-bottom: 50px;
+  text-align: center;
+  padding-bottom: 50px;
  }
  .ms_wrapper{
-   width: 80%;
-   margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
  }
  .ms_section_primary{
-    background-color: #f3f5f9;
+  background-color: #f3f5f9;
+ }
+ .ms_section_secondary{
+  background: linear-gradient(to bottom, #0046c4 0%, #00219c 100%)
+ }
+ .ms_section_secondary .ms_intro{
+  color: white;
+ }
+ .ms_bullet{
+  font-size: 13px;
  }
  /* navbar*/
  .ms_nav{
-   background-color: white;
+  background-color: white;
  }
  .ms_logo img{
   width: 150px;
@@ -143,9 +152,6 @@ h3 {
 .ms_intro p{
   font-size: 17px;
 }
-.ms_bullet{
-  font-size: 11px;
-}
 .ms_type_services li{
   padding: 10px;
   border-left: 1px solid #d1d1d1;
@@ -190,13 +196,13 @@ h3 {
 }
 @media screen and (max-width: 768px) {
   .ms_jumbotrone h1{
-   font-size: 25px;
+    font-size: 25px;
   }
   .ms_form{
     padding: 10px 15px;
   }
   .ms_section{
-   padding: 40px 0;
+    padding: 40px 0;
   }
   .ms_partner_logo{
     width: calc( 97% / 2);
