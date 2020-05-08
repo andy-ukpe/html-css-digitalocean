@@ -1,18 +1,53 @@
 body {
-  padding-top: 70px;
+  padding-top: 57px;
+  font-family: "Roboto", sans-serif;
 }
+p{
+  color: #626f8c;
+}
+ul{
+  padding-left: 0;
+  padding-bottom: 15px;
+}
+ul li{
+  list-style-type: none;
+}
+h2{
+  margin-top: 0;
+}
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
  /* COMPONENTS */
+ .ms_section{
+  padding: 50px 0;
+ }
  .ms_button{
-  padding: 10px 8px;
+  padding: 9px 8px;
+ }
+ .ms_intro{
+   text-align: center;
+   padding-bottom: 50px;
+ }
+ .ms_wrapper{
+   width: 80%;
+   margin: 0 auto;
+ }
+ .ms_section_primary{
+    background-color: #f3f5f9;
  }
  /* navbar*/
+ .ms_nav{
+   background-color: white;
+ }
  .ms_logo img{
   width: 150px;
   height: auto;
   display: block;
   padding: 10px 0;
  }
-
 .ms_nav a{
   color: black;
   text-decoration: none;
@@ -23,13 +58,17 @@ body {
 .nav>li>a{
   padding: 15px 8px;
 }
+.ms_nav .ms_signup{
+  text-align: right;
+}
 #ms_signup_nav{
   color: #2c84ff;
   border: 1px solid #2c84ff;
   border-radius: 5px;
-  padding: 10px 5px;
+  padding: 9px 5px;
   display: inline;
-  line-height: 53px;
+  line-height: 50px;
+
 }
 #ms_signup_nav:hover{
   color: white;
@@ -39,3 +78,133 @@ body {
   line-height: 57px;
   color: #2c84ff;
 }
+/* jimbotrone */
+.ms_jumbotrone{
+  background-image: url(../img/bg-home.jpg);
+  background-size: cover;
+  color: white;
+}
+.ms_jumbotrone h1{
+ font-size: 44px;
+ font-weight: 700;
+}
+.ms_jumbotrone h2{
+  font-size: 22px;
+  font-weight: 700;
+}
+.ms_jumbotrone h2 span{
+  color: #0c71ff;
+}
+.ms_pitch{
+  font-size: 17px;
+  color: #b1c6ff;
+}
+/** form **/
+.ms_form{
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  padding: 15px 15px;
+}
+.ms_jumbotrone .btn-group-lg>.btn, .btn-lg {
+  padding: 4px 16px;
+  font-size: 14px;
+}
+.ms_jumbotrone .btn-primary{
+  background-color: #579aff;
+}
+.ms_terms{
+  font-size: 11px;
+  margin-top: 15px;
+}
+.ms_terms a{
+  text-decoration: underline;
+}
+/* partener */
+.ms_section_partner{
+  padding: 40px 0;
+}
+.ms_partership{
+  text-transform: uppercase;
+  color: #8792a9;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.ms_partner_logo{
+  display: inline;
+  width: calc( 97% / 6);
+  vertical-align: middle;
+}
+.ms_partner_link{
+  font-weight: 700;
+}
+/* service */
+.ms_intro p{
+  font-size: 17px;
+}
+.ms_bullet{
+  font-size: 11px;
+}
+.ms_type_services li{
+  padding: 10px;
+  border-left: 1px solid #d1d1d1;
+  color: #626f8c;
+  font-size: 14px;
+
+}
+.ms_arrow{
+  position: relative;
+}
+.ms_arrow_left,
+.ms_arrow_right{
+  position: absolute;
+}
+.ms_arrow_left{
+  font-size: 30px;
+  right: 20px;
+  top: 122px
+}
+.ms_arrow_left a i{
+  color:#6f7b97;
+}
+.ms_arrow_right{
+  font-size: 30px;
+  left: 20px;
+  top: 122px
+}
+.ms_arrow_right a i{
+  color: #031c4e;
+}
+.ms_legend{
+  padding-top: 25px;
+}
+.ms_slide_list ul li{
+  display: inline-block;
+}
+/* MEDIA QUERY */
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .ms_legend{
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ms_jumbotrone h1{
+   font-size: 25px;
+  }
+  .ms_form{
+    padding: 10px 15px;
+  }
+  .ms_section{
+   padding: 40px 0;
+  }
+  .ms_partner_logo{
+    width: calc( 97% / 2);
+  }
+  .ms_intro{
+    padding-bottom: 40px;
+  }
+  .ms_legend{
+    padding-bottom: 50px;
+  }
+ }

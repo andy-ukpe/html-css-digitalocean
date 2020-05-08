@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
+  <title>DigitalOcean- Esercizio Andy ukpe</title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -40,15 +41,15 @@
 
                 <div class="col-xs-12 col-md-5 ms_login_top">
                   <!-- menu login -->
-                  <ul class="nav navbar-nav hidden-xs hidden-sm text-right">
-                    <li><a href="#">Docs</a></li>
-                    <li><a href="#">Supports <i class="fas fa-chevron-down"></i></a></li>
-                    <li><a href="#">Login</a></li>
-                  </ul>
+                    <ul class="nav navbar-nav hidden-xs hidden-sm ms_login_left">
+                      <li><a href="#">Docs</a></li>
+                      <li><a href="#">Supports <i class="fas fa-chevron-down"></i></a></li>
+                      <li><a href="#">Login</a></li>
+                    </ul>
                   <!--fine menu login -->
 
                   <!-- Signup -->
-                  <div class="ms_login hidden-xs hidden-sm">
+                  <div class="ms_signup hidden-xs hidden-sm">
                     <a href="#" id="ms_signup_nav" class="ms_button_signup">Sign Up</a>
                   </div>
                   <!--fine Signup -->
@@ -67,17 +68,181 @@
         <!--FINE NAVBAR -->
 
         <!-- JUMBO -->
-        <div class="ms_jumbotrone">
+        <section class="ms_jumbotrone ms_section">
           <div class="container">
             <div class="row">
-
-
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="ms_teaser">
+                  <h1>The simplest cloud platform for developers & teams</h1>
+                  <p class="ms_pitch">Deploy, manage and scale cloud applications
+                    faster and more efficiently on DigitalOcean. We make managing
+                    infrastructure easy for teams and bussinesses, wheater you're
+                    running one virtual machine or ten thousand.</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
+                <div class="ms_form text-center">
+                  <h2>Deploy your app in a second.<br><span>Get started now.</span></h2>
+                  <form class="form-group">
+                    <div class="form-group">
+                     <label class="sr-only" for="Email">Email address</label>
+                     <input type="email" class="form-control" id="input_email" placeholder="Email">
+                   </div>
+                   <div class="form-group">
+                     <label class="sr-only" for="password">Password</label>
+                     <input type="password" class="form-control" id="input_password" placeholder="Password">
+                   </div>
+                  </form>
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Create your account</button>
+                    <button type="button" class="btn btn-default btn-lg btn-block">Sign up with google</button>
+                    <p class="ms_terms">By signign up you agree to the <a href="#">Terms of Service.</a></p>
+                </div>
+              </div>
             </div>
 
           </div>
 
-        </div>
+        </section>
         <!-- FINE JUMBO -->
+        <!-- MAIN -->
+        <!-- partner -->
+        <section class="ms_section_primary ms_section_partner">
+          <div class="container">
+            <div class="text-center">
+              <p class="ms_partership">innovative bussinesses trust digitalocean</p>
+                <!-- logos -->
+                <div class="ms_partnership_logos">
+                  <img class="ms_partner_logo" src="img/docker.png" alt="logo docker">
+                  <img class="ms_partner_logo" src="img/gitlab.png" alt="logo gitlab">
+                  <img class="ms_partner_logo" src="img/slack.png" alt="logo slack">
+                  <img class="ms_partner_logo" src="img/hashicorp.png" alt="logo hashisorp">
+                  <img class="ms_partner_logo" src="img/hashicorp.png" alt="logo hashisorp">
+                  <img class="ms_partner_logo" src="img/splunk.png" alt="logo spluck">
+                </div>
+                <!-- fine logos -->
+
+                <!-- link -->
+                <div class="ms_partner_link">
+                  <a href="#">View costumers stories <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <!-- fine link -->
+            </div>
+          </div>
+        </section>
+        <!--fine partner -->
+        <!-- inizio services -->
+        <section class="ms_section ms_services">
+          <div class="container">
+            <div class="ms_intro">
+              <h2>Deploy and scale seamlessy</h2>
+              <p>Our optimizer process saves your team time when running and
+                scaling distributed applications, AI & machine learning workloads,
+                hosted sevices, client websites, or CI/CD enviroments.</p>
+            </div>
+          </div>
+          <div class="ms_wrapper">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                  <ul class="ms_type_services">
+                    <li>Deploy</li>
+                    <li>Manage</li>
+                    <li>Secure</li>
+                    <li>Scale</li>
+                    <li>Monitor</li>
+                  </ul>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-8">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                      <div class="ms_bullet">
+                        <img src="img/cluster-deploy.svg" alt="cluster-deploy img">
+                        <h3>Cluster deployments</h3>
+                        <p>Provision multiple Droplets (virtual machines) in second with
+                          our control panel, CLI, or directly against our API.</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                      <div class="ms_bullet">
+                        <img src="img/optimized-compute.svg" alt="optimized-compute img">
+                        <h3>Optimized compute types</h3>
+                        <p>Get the compute resorces you need with Standard or
+                          Optimizer Droplets.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                      <div class="ms_bullet">
+                        <img src="img/one-click.svg" alt="one-click img">
+                        <h3>One-click apps</h3>
+                        <p>Skip the install and configuration process with pre-build
+                          open sources images supporting Rails, Cassandra, Docker and more.</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                      <div class="ms_bullet">
+                        <img src="img/global.svg" alt="global img">
+                        <h3>Global availability</h3>
+                        <p>Deploy to any of our data center regions around the world.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!-- fine services -->
+        <!-- how horks -->
+        <section class="ms_section ms_section_primary ms_how_works">
+          <div class="container">
+            <div class="ms_intro">
+              <h2>Designed for developers</h2>
+              <p>Build more and less time managing your infrastructure with our easy-to-use control pannel and API.</p>
+            </div>
+            <div class="ms_carousel">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="ms_arrow col-xs-2 col-sm-2 col-md-3">
+                    <div class="ms_arrow_left hidden-xs">
+                      <a href="#"><i class="fas fa-chevron-left"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-6">
+                    <div class="ms_slide">
+                      <img class="img-responsive" src="img/screenshot-create-droplet.jpg" alt="img slide">
+                    </div>
+                  </div>
+                  <div class="ms_arrow col-xs-2 col-sm-2 col-md-3">
+                    <div class="ms_arrow_right hidden-xs">
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="ms_slide_list text-center">
+                <div class="ms_legend">
+                  <p>Create compute server in 55 seconds or less.</p>
+                </div>
+                <ul>
+                  <li><a href="#"><i class="fas fa-circle"></i></a></li>
+                  <li><a href="#"><i class="far fa-circle"></i></a></li>
+                  <li><a href="#"><i class="far fa-circle"></i></a></li>
+                  <li><a href="#"><i class="far fa-circle"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- fine how horks -->
+        <!--  -->
+        <!--  -->
+        <!-- FINE MAIN -->
     </header>
   </body>
 </html>
