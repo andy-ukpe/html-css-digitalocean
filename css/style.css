@@ -187,11 +187,61 @@ h3 {
 }
 .ms_slide_list ul li{
   display: inline-block;
+  padding-top: 30px;
+}
+/* regions */
+.ms_code{
+  color: white;
+}
+.ms_desinations{
+  color: #6f89ce;
+}
+[class*="ms_box"] .row:not(:last-child)>div {
+  border-bottom: 1px solid white;
+}
+[class*="ms_box"] .row div>*{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* stories */
+.ms_square{
+  background-color: white;
+  padding: 50px 15px;
+}
+.ms_square img{
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+.ms_hook{
+  font-size: 16px;
+}
+.ms_square .ms_interviewed{
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.ms_interviewed,
+.ms_position{
+  font-size: 13px;
+}
+/* cta */
+.ms_button_cta{
+  color: #1375ff;
 }
 /* MEDIA QUERY */
+/* @media screen and (min-width: 992px){
+  .ms_box_left>.row{
+    padding-right: 15px;
+  } */
+}
 @media screen and (min-width: 768px) and (max-width: 992px){
   .ms_legend{
     padding-bottom: 50px;
+  }
+  [class*="ms_box"]{
+      padding-bottom: 30px;
+  }
+  .ms_square{
+    padding: 30px 15px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -212,5 +262,8 @@ h3 {
   }
   .ms_legend{
     padding-bottom: 50px;
+  }
+  [class*="ms_box"]{
+    padding-bottom: 30px;
   }
  }
