@@ -129,6 +129,10 @@ h3 {
 .ms_terms a{
   text-decoration: underline;
 }
+.ms_signup img{
+  height: 16px;
+
+}
 /* partener */
 .ms_section_partner{
   padding: 40px 0;
@@ -226,6 +230,32 @@ h3 {
 /* cta */
 .ms_button_cta{
   color: #1375ff;
+}
+.ms_cta .ms_intro{
+  padding-bottom: 0;
+}
+/*  footer */
+footer{
+  color: #7a859d;
+  background-color: #031c4e;;
+}
+.ms_copyright{
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.ms_section_footer h3{
+  color:white;
+}
+ul.ms_icons li {
+  display: inline-block;
+  padding-right: 10px;
+}
+ul.ms_icons li a{
+  font-size: 16px;
+}
+footer li a{
+  text-decoration: none;
+  color: #6d7995;
 }
 /* MEDIA QUERY */
 /* @media screen and (min-width: 992px){
