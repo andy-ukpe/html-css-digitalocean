@@ -77,7 +77,6 @@ h3 {
   padding: 9px 5px;
   display: inline;
   line-height: 50px;
-
 }
 #ms_signup_nav:hover{
   color: white;
@@ -131,7 +130,6 @@ h3 {
 }
 .ms_signup img{
   height: 16px;
-
 }
 /* partener */
 .ms_section_partner{
@@ -143,7 +141,6 @@ h3 {
   font-size: 10px;
   font-weight: 700;
 }
-
 .ms_partner_logo{
   display: inline;
   width: calc( 97% / 6);
@@ -161,7 +158,6 @@ h3 {
   border-left: 1px solid #d1d1d1;
   color: #626f8c;
   font-size: 14px;
-
 }
 .ms_arrow{
   position: relative;
